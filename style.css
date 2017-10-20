@@ -14,25 +14,35 @@ body {
 }
 
 .header {
-    background-color: royalblue  
+    background-color: white  
 }
 
 .bottom {
-    background-color: tomato;
+    background-color: white;
     position: relative;
 }
 
 .news {
-    background-color: yellow;
+    background-color: white;
     width: 180px;
     float: left;
 }
 
+.news > h1 {
+    font-size: 25px;
+    color: rgb(66, 119, 219)
+}
+
 .content {
-    background-color: fuchsia;
+    background-color: white;
     margin-left:180px 
 }
 
+.columns > .buy {
+   position: relative; 
+   display: inline-block;
+   width: 30%;
+}
 .footer {
     clear: both
 }

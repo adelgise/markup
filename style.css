@@ -1,0 +1,38 @@
+body {
+    margin: 0 
+}
+
+.layout { 
+    width: 100%;  
+}
+
+.wrapper {
+    background-color: rgb(14, 219, 134);
+    margin: 0 auto;
+    width: 950px;
+    min-width: 950px;
+}
+
+.header {
+    background-color: royalblue  
+}
+
+.bottom {
+    background-color: tomato;
+    position: relative;
+}
+
+.news {
+    background-color: yellow;
+    width: 180px;
+    float: left;
+}
+
+.content {
+    background-color: fuchsia;
+    margin-left:180px 
+}
+
+.footer {
+    clear: both
+}

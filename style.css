@@ -132,5 +132,7 @@ form {
 
 .footer > p {
     float: right;
-    font-size: 14px
+    font-size: 14px;
+    font-family: Arial;
+    color: rgb(64, 64, 64);
 }

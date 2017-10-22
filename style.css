@@ -7,42 +7,108 @@ body {
 }
 
 .wrapper {
-    background-color: rgb(14, 219, 134);
+    background-color: rgb(216, 47, 47);
     margin: 0 auto;
     width: 950px;
     min-width: 950px;
 }
 
 .header {
-    background-color: white  
+    background-color: rgb(38, 187, 58)  
 }
 
 .bottom {
-    background-color: white;
+    background-color: rgb(51, 40, 197);
     position: relative;
 }
 
-.news {
-    background-color: white;
-    width: 180px;
+.newsmenu {
+    background-color: rgb(183, 209, 36);
+    width: 250px;
     float: left;
+    border-top: 5px solid rgb(39, 145, 207);
+    border-bottom: 5px solid rgb(39, 145, 207)
 }
 
+* {box-sizing: border-box;}
+body{margin: 0;}
+div {padding: 30px 0}
+form {
+  position: relative;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.search input, .search button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.search input {
+  width: 100%;
+  height: 24px;
+  padding-left: 15px;
+  border: 1px solid grey;
+  outline: none;
+  }
+
+
+.search button {
+  height: 25px;
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.search button:before {
+  font-size: 10px;
+  font-weight: bold
+}
+
+.latestnews > div {
+    border-bottom: 1px solid black;
+    
+}
 .news > h1 {
     font-size: 25px;
-    color: rgb(66, 119, 219)
+    color: rgb(39, 145, 207);
+}
+
+.news > h3 {
+    font-size: 15px;
+    color: rgb(56, 145, 228)
 }
 
 .content {
     background-color: white;
-    margin-left:180px 
+    width: 600px;
+    margin-left:255px; 
+    border-bottom: 5px solid brgb(39, 145, 207);
+    border-top: 5px solid rgb(39, 145, 207);
 }
 
 .columns > .buy {
    position: relative; 
    display: inline-block;
-   width: 30%;
+   width: 32.9%;
 }
+.buy > h2 {
+    font-size: 20px;
+    color: rgb(56, 145, 228)
+}
+
+.readmore {
+    text-decoration:none; 
+    color: grey
+}
+
+
 .footer {
     clear: both
+}
+
+.footer > p {
+    float: right;
+    font-size: 14px
 }

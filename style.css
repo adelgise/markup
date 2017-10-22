@@ -14,8 +14,38 @@ body {
 }
 
 .header {
-    background-color: rgb(38, 187, 58);
+    background-color: white;
     margin-left:5px;  
+}
+
+.nav {
+    font-size: 20px;
+    color: rgb(135, 135, 135);
+    font-family: Trebuchet MS;
+    float: right;
+    position: relative;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-right: 22px
+   
+}
+
+.nav:link {
+    color: rgb(135, 135, 135); 
+    }
+
+.nav:visited {
+    color: rgb(135, 135, 135);
+}
+
+.nav:hover {
+    color: rgb(4, 129, 194);
+    
+}
+
+.nav:active {
+    color: rgb(4, 129, 194);
+    
 }
 
 .bottom {
